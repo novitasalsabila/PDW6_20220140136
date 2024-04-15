@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay id="myVideo">
+        <source src="asset/video-background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    <center>
+        <div class="overlay"></div>
+        
+       
+<div class="container1">
+           <h3 id="audio">Audio Set Fire To The Rain</h3><br>
+            
+            <audio id="myaudio" controls>
+                <source src="asset/Adele-audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            
+        </div>
+       
+    
+        <div class="container">
+            <img src="asset/foto.jpeg" alt="cover" width="100%" >
+            <!--<video id="myVideo" autoplay>
+                <source src="asset/video.mp4" type="video/mp4">
+            </video>-->
+            <div class="Deskripsi">
+                <h3 class="judul">Video Set Fire To The Rain</h3>
+                <p class="Artis">Adele</p>
+            </div>
+            <div class="barcontainer"></div>
+            <div class="progress-bar" id="progress-bar"></div>
+            <span class="time-display">0:00 / 0:00</span>
+            
+            <div class="playcontrol">
+                <button class="play" onclick="playPause()">
+                    <i class="fas fa-play"></i>Play 
+                    
+                </button> 
+        </div>
+        
+    </center>
+    
+
+       <!--
+<button class="pause" onclick="playPause()">
+            <i class="fa pause"></i> Pause 
+        </button>
+        
+    </div>-->
+
+    <script src="main.js"></script>
+</body>
+</html>
